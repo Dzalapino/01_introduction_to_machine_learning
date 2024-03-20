@@ -1,0 +1,5 @@
+# PyCharm IDE files
+/.idea
+
+# Python pycache
+/__pycache__/
