@@ -148,3 +148,13 @@ misclassified_test = (y_test != y_test_pred).sum()
 
 print(f'Number of misclassified training samples: {misclassified_train}')
 print(f'Number of misclassified test samples: {misclassified_test}')
+
+"""
+In machine learning, the decision boundary is determined based on the training data. 
+If the training data changes, the decision boundary may also change. 
+This is because the classifier is trying to find the best boundary that separates the classes in the training data. 
+If the training data is different, the "best" boundary may also be different.
+Similarly, the classification results can depend on the training set.
+If the classifier is trained on different data, it may make different predictions for the same test data.
+This is because the classifier has learned different patterns from the different training data.
+"""
